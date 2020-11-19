@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/brown.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox {
+    width: 320px;
+    height: 500px;
+    background: #fff;
+    color: #D23600;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox td {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.loginbox select {
+    margin-bottom: 10px;
+    width: 32.1%;
+}
+.loginbox input[type="radio"] {
+    height: 10px;
+    width: min-content;
+    padding-bottom: 10px;
+}
+.loginbox input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #D23600;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #D23600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.loginbox button {
+    background-color: #D23600; 
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 49.1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.loginbox button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #D23600;
+}
+
+.form-control.success input {
+	border-color: #2ecc71;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+}
+
+.form-control i {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form-control small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error small {
+	visibility: visible;
+}
